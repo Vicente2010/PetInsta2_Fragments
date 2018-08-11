@@ -1,25 +1,31 @@
-# PetInsta
-Tarea 3- Curso3
+# IMPORTANTE: Pon tu correo y contraseña en la clase ContactoActivity linea 55 56 y 58, sino no funcionará la parte de mandar el correo
 
-Parte 1
+# PetInsta 2 - Fragments
 
-La siguiente imagen representa una maqueta de una pantalla:
+Tarea 4- Curso3
 
+artiendo de tu proyecto anterior deberás agregarle Menús y Fragments.
 
-Ahora:
+AGREGANDO MENÚS:
 
-Analiza la entidad “Mascota” .
-Genera un RecyclerView que muestre una lista de mascotas como se observa.
-Deberás prevenir que cada mascota puede ser raiteada usando el ícono de hueso en blanco en comparación con el hueso amarillo que nos muestra la cantidad de raiting que tiene cada mascota.
-Parte 2
+Crea un menú de opciones que muestre el Item “Contacto” y el Item “Acerca De”
 
-Partiendo de lo realizado en la parte 1:
+Contacto deberá:
 
-Crea un Action View en forma de estrella como el que se muestra en la siguiente imagen:
+Llevarte a una pantalla con un formulario en el que solicites el nombre, el correo y su mensaje (utiliza los EditText de Material Design),
+Además habrá un botón de “Enviar Comentario” el cual tomará la información recopilada y con ayuda de la librería JavaMail envíe un mail con el comentario del contacto.
+Este es el enlace con la documentación de JavaMail: https://java.net/projects/javamail/pages/Android
 
-Este botón debe tener las siguientes características:
+Acerca De, deberá llevarte a una pantalla con la Bio del desarrollador.
 
-Nos debe llevar a un Nuevo Activity que en el futuro funcionará como una pantalla en la que estaremos almacenando las últimas 5 mascotas que nos han gustado (el ícono de gustar es el indicado por el hueso en blanco).
-Para el objetivo de este ejemplo, lo único que deberás mostrar es un RecyclerView con 5 mascotas “Dummy” o Hardcodeadas.
-Además, la actividad que muestra las mascotas favoritas, deberá tener la posibilidad de regresar al Activity padre.
-El flujo de la aplicación deberá ser el que se muestra en las siguientes maquetas:
+FRAGMENTS
+
+A partir de la siguiente imagen de maqueta:
+
+Modulariza el proyecto anterior en Fragments para que estos puedan ser mostrados en un ViewPager.
+
+2. Crea un Fragment Adicional que muestre el perfil de nuestra mascota. Tendrá su foto de perfil, su nombre y un RecyclerView en donde se mostrarán todas las fotos que ha subido se acomodarán en forma de Grid.
+
+3. Cada ítem deberá contener la foto y la cantidad de raits que se le han dado representado por huesos. Recuerda que todos los datos son dummy.
+
+Puedes utilizar esta librería para generar una imagen redonda como foto de perfil de la mascota: https://github.com/lopspower/CircularImageView
