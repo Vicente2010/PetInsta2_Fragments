@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:padding="@dimen/pad">
+
+    <TextView
+        android:id="@+id/abtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AbtTitulo"
+        android:textSize="@dimen/sizeTitulo"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/abtsubTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AbtsubTitulo"
+        android:textSize="@dimen/abtSubtitulo"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/abtTitulo"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/abtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AbtNombre"
+        android:textSize="@dimen/abtNombre"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/abtsubTitulo"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/abtDetalle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AbtDetalle1"
+        android:textSize="@dimen/abtDetalle1"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/abtNombre"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <TextView
+        android:id="@+id/abtDetalle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AbtDetalle2"
+        android:textSize="@dimen/abtDetalle2"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/abtDetalle1"
+        app:layout_constraintVertical_bias="0.034" />
+
+</android.support.constraint.ConstraintLayout>

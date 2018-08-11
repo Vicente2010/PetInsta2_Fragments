@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imvPrincipal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="@dimen/pad"
+        android:src="@drawable/sn_bnd_1"
+        app:civ_border_color="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        app:layout_constraintBottom_toTopOf="@+id/tvNombreMiMascota"
+         />
+
+    <TextView
+        android:id="@+id/tvNombreMiMascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/miMascotaNombre"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/sizeTitulo"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/rvMiMascota"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvPrincipal" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMiMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreMiMascota">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

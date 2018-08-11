@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PetInsta</string>
+    <string name="defaultName">Nombre Mascota</string>
+    <string name="defaultRate">0</string>
+
+    <string name="titulo">PetInstragram</string>
+
+    <!-- Strings del option Menu-->
+    <string name="mnContacto">Contacto</string>
+    <string name="mnAbout">Acerca de</string>
+    <!-- Strings del option Menu-->
+
+    <!-- Strings del activity About-->
+    <string name="AbtTitulo">PetInsta</string>
+    <string name="AbtsubTitulo">App hecha por : </string>
+    <string name="AbtNombre">Vicente Sanchez</string>
+    <string name="AbtDetalle1">para Coursera</string>
+    <string name="AbtDetalle2">Desarrollo de aplicaciones móviles Curso 3 - Semana 4</string>
+    <!-- Strings del activity About-->
+
+    <!-- Strings del activity Contacto-->
+    <string name="ctcTitulo">Contacta al desarrollador</string>
+    <string name="ctcCorreo">Ingrese su email</string>
+    <string name="ctcAsunto">Ingrese su asunto</string>
+    <string name="ctcMensaje">Mensaje</string>
+    <string name="ctcBoton">Enviar correo</string>
+
+    <string name="miMascotaNombre">Kala</string>
+
+
+</resources>
